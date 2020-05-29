@@ -1,0 +1,25 @@
+{
+    "name": "esp32-i2c-lcd1602",
+    "keywords": "lcd, hd44780, pcf8574a, i2c, esp32, esp-idf, espressif",
+    "description": "ESP32-compatible C library for LCD1602 display via I2C backpack.",
+    "authors": {
+        "name": "David Antliff",
+        "email": "david@pitchblende.co.nz",
+        "url": "http://pitchblende.co.nz",
+        "maintainer": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DavidAntliff/esp32-i2c-lcd1602.git"
+    },
+    "export": {
+        "exclude": ["doc/*"]
+    },
+    "build": {
+        "srcDir": ".",
+        "includeDir": "include/"
+    },
+    "version": "1.0.0",
+    "frameworks": "espidf",
+    "platforms": "espressif32"
+}
